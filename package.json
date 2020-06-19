@@ -1,0 +1,25 @@
+{
+  "name": "hello-express",
+  "version": "1.0.0",
+  "description": "Alpha bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "fs": "0.0.2",
+    "jimp": "^0.10.3",
+    "moment": "^2.25.3"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Alphabot",
+    "Alphabot#8511"
+  ]
+}
