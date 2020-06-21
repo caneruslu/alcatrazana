@@ -1,25 +1,42 @@
 {
-  "name": "hello-express",
+  "name": "cortex",
   "version": "1.0.0",
-  "description": "Alpha bot",
+  "description": "cortex-package-dosyasidir",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "node bot.js"
   },
-  "dependencies": {
-    "chalk": "^4.0.0",
-    "discord.js": "^11.5.1",
-    "express": "^4.17.1",
-    "fs": "0.0.2",
-    "jimp": "^0.10.3",
-    "moment": "^2.25.3"
-  },
-  "engines": {
-    "node": "11.x"
-  },
-  "license": "MIT",
   "keywords": [
-    "Alphabot",
-    "Alphabot#8511"
-  ]
+    "Cortex"
+  ],
+  "author": "Cortex Bot",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-bot-api": "^0.1.2",
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "cleverbot-free": "^1.0.3",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^11.6.4",
+    "express": "^4.17.1",
+    "gifencoder": "^2.0.1",
+    "google-tts-api": "0.0.4",
+    "jimp": "^0.13.0",
+    "long": "^4.0.0",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "node-google-translate-skidz": "^1.1.2",
+    "node-gyp": "^7.0.0",
+    "node-opus": "^0.3.3",
+    "node-superfetch": "^0.1.10",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.1",
+    "reaction-role": "^1.6.4",
+    "request": "^2.88.2",
+    "translate-google": "^1.3.5",
+    "unirest": "^0.6.0"
+  }
 }
+ 
